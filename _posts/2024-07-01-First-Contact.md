@@ -1,6 +1,8 @@
 ---
+layout: post
 title: "First Contact"
 date: 2024-07-01
+categories: life travel spain barcelona writing reading coding
 ---
 
 June has continued where May left off.
