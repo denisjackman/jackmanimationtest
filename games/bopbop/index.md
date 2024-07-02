@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "BopBop 2012"
-permalink: /jackmanimation/Games/BopBop/
 ---
 
 BopBop MADGamers 2012 Game
