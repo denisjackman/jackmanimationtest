@@ -1,3 +1,3 @@
 ---
-title: "Contact Page for Jackmanimation"
+title: "Contacts"
 ---

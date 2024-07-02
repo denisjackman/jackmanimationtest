@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Jackmanimation Studios"
+title: "Studio"
 permalink: /jackmanimation/
 ---
 This is Jackmanimation.

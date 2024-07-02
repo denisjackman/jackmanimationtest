@@ -1,3 +1,3 @@
 ---
-title: "Index Page for Jackmanimation"
+title: "Index"
 ---

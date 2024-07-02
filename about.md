@@ -1,3 +1,3 @@
 ---
-title: "About Page for Jackmanimation"
+title: "About"
 ---
