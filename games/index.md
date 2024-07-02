@@ -5,6 +5,7 @@ The list is not currently complete (see below). Some of these have been written 
 I will try and find the details for those and publish as I find them.
 
 ## Details
+
 |Year|Game|Scale|Genre|Type|Published|Blog|
 |--|---|---|---|---|--|--|
 |2002|Rorke’s Drift|25mm|Colonial|Demonstration|NO|NO|
@@ -22,8 +23,7 @@ I will try and find the details for those and publish as I find them.
 * [Tabletop Madness Blog](http://ttmadness.blogspot.com/)
 
 ## Notes
-
-* [^1]: Published on the Baccus [website](https://www.baccus6mm.com/Home/)
-* [^2]: Published in WSS (Wargames,Soldiers & Strategy) issue 60. The link is [here](https://www.karwansaraypublishers.com/pages/wss-magazine).
-* [^3]: Published in Miniature Wargames issue 429. The link is [here](https://pocketmags.com/miniature-wargames-magazine/january-2019-429)
-* [^4]: Published in Miniature Wargames issue 357. The link is [here](https://pocketmags.com/miniature-wargames-magazine/january-2013-357)
+[^1]: Published on the Baccus [website](https://www.baccus6mm.com/Home/)
+[^2]: Published in WSS (Wargames,Soldiers & Strategy) issue 60. The link is [here](https://www.karwansaraypublishers.com/pages/wss-magazine).
+[^3]: Published in Miniature Wargames issue 429. The link is [here](https://pocketmags.com/miniature-wargames-magazine/january-2019-429)
+[^4]: Published in Miniature Wargames issue 357. The link is [here](https://pocketmags.com/miniature-wargames-magazine/january-2013-357)
