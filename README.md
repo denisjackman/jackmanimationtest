@@ -1,8 +1,4 @@
----
-title: Main
-author: Denis Jackman
----
-# Jackmanimation Test Website
+# Jackmanimation
 
 ## Description
 This is test website for Python testing of applicaton and modules.
