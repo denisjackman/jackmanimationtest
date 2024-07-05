@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "BopBop 2012"
+title: "BopBop"
 ---
 
 BopBop MADGamers 2012 Game

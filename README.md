@@ -1,3 +1,8 @@
+---
+layout: page
+title: Main
+author: Denis Jackman
+---
 # Jackmanimation Test Website
 
 ## Description

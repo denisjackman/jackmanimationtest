@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "BopBop 2012 Rules"
+title: "BopBop Rules"
 permalink: /jackmanimation/Games/BopBop/rules/
 ---
 

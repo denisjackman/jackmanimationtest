@@ -1,3 +1,7 @@
+---
+layout: page
+title: Demo Games
+---
 # demo-games
 ## Introduction
 This is a store of the demo games that I have designed over the years.
