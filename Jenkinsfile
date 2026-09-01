@@ -1,15 +1,15 @@
 pipeline {
     agent any
     stages {
-        stage('Toolchain check') {
+        stage('Toolchain') {
             steps {
                 sh '''
-                    for tool in ruby gem bundle; do
-                        if ! command -v "$tool" >/dev/null 2>&1; then
-                            echo "Missing required tool: $tool. Install ruby-full and bundler on this host (jenkins has no passwordless sudo to do it automatically)."
-                            exit 1
-                        fi
-                    done
+                    if ! command -v ruby >/dev/null 2>&1 || ! command -v gem >/dev/null 2>&1; then
+                        sudo apt-get update && sudo apt-get install -y ruby-full build-essential zlib1g-dev
+                    fi
+                    if ! command -v bundle >/dev/null 2>&1; then
+                        sudo gem install bundler
+                    fi
                 '''
             }
         }
