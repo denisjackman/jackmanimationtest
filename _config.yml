@@ -5,3 +5,11 @@ description: "This is a Test site Jackmanimation Studios!"
 github_username: denisjackman
 twitter_username: denisjackman
 email: denis_jackman@hotmail.com
+
+exclude:
+  - Jenkinsfile
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - LICENSE
