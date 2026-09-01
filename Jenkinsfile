@@ -16,7 +16,8 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                    bundle install --path vendor/bundle
+                    bundle config set path 'vendor/bundle'
+                    bundle install
                     bundle exec jekyll build
                 '''
             }
