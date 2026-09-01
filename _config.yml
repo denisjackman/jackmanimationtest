@@ -6,6 +6,10 @@ github_username: denisjackman
 twitter_username: denisjackman
 email: denis_jackman@hotmail.com
 
+# Explicit nav so subpages (rules/update pages, etc.) don't clutter the header.
+header_pages:
+  - games/index.md
+
 exclude:
   - Jenkinsfile
   - Gemfile

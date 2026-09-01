@@ -1,0 +1,263 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ==========================================================================
+   Jackmanimation custom theme
+   Overrides minima's defaults using stable minima markup classes so this
+   keeps working whether the installed minima gem is v2 or v3.
+   ========================================================================== */
+
+:root {
+  --bg: #faf9f6;
+  --bg-alt: #f1efe9;
+  --surface: #ffffff;
+  --text: #23262b;
+  --text-muted: #63666d;
+  --border: #e6e2d8;
+  --brand: #4f46e5;
+  --brand-dark: #3c34b8;
+  --accent: #e8890c;
+
+  /* Minima 3.x's "auto" skin exposes these custom properties on :root —
+     harmless no-ops if the installed minima major version doesn't use them,
+     since the class-based overrides below are what actually drive the look. */
+  --minima-brand-color: var(--text-muted);
+  --minima-heading-color: var(--text);
+  --minima-text-color: var(--text);
+  --minima-background-color: var(--bg);
+  --minima-code-background-color: var(--bg-alt);
+  --minima-link-base-color: var(--brand);
+  --minima-link-visited-color: var(--brand-dark);
+  --minima-link-hover-color: var(--brand-dark);
+}
+
+/* -------------------------------------------------------------------------
+   Base
+   ------------------------------------------------------------------------- */
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+  max-width: 840px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+a {
+  color: var(--brand);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+/* -------------------------------------------------------------------------
+   Header / nav
+   ------------------------------------------------------------------------- */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(250, 249, 246, 0.92);
+  backdrop-filter: saturate(180%) blur(6px);
+  border-top: none;
+  border-bottom: 1px solid var(--border);
+}
+
+.site-title, .site-title:visited {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: -0.02em;
+  color: var(--text) !important;
+}
+
+.site-title:hover {
+  color: var(--brand) !important;
+  text-decoration: none;
+}
+
+.site-nav .page-link {
+  color: var(--text-muted);
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-left: 24px;
+  transition: color 0.15s ease;
+}
+
+.site-nav .page-link:hover {
+  color: var(--brand);
+  text-decoration: none;
+}
+
+.site-nav .menu-icon > svg {
+  fill: var(--text);
+}
+
+.site-nav .trigger {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+/* -------------------------------------------------------------------------
+   Home / post list
+   ------------------------------------------------------------------------- */
+
+.home .post-list-heading {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+}
+
+.post-list > li {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px 28px;
+  margin-bottom: 20px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.post-list > li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(35, 38, 43, 0.06);
+  border-color: var(--brand);
+}
+
+.post-meta {
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.post-link {
+  font-size: 24px;
+  color: var(--text);
+}
+
+.post-list > li:hover .post-link {
+  color: var(--brand);
+}
+
+/* -------------------------------------------------------------------------
+   Pages / posts
+   ------------------------------------------------------------------------- */
+
+.page-heading, .post-title {
+  font-size: 34px;
+}
+
+.page-content {
+  padding-top: 40px;
+}
+
+.post-content h2 {
+  margin-top: 2em;
+}
+
+/* -------------------------------------------------------------------------
+   Tables (games catalog)
+   ------------------------------------------------------------------------- */
+
+table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-collapse: collapse;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+table th {
+  background: var(--bg-alt);
+  color: var(--text);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid var(--border);
+  padding: 12px 16px;
+  white-space: nowrap;
+}
+
+table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+table tr:nth-child(even) td {
+  background: var(--bg-alt);
+}
+
+table tr:hover td {
+  background: #fbeedd;
+}
+
+/* -------------------------------------------------------------------------
+   Footer
+   ------------------------------------------------------------------------- */
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.footer-heading {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.svg-icon {
+  fill: var(--text-muted);
+}
+
+.social-media-list a:hover .svg-icon {
+  fill: var(--brand);
+}
+
+/* -------------------------------------------------------------------------
+   Responsive
+   ------------------------------------------------------------------------- */
+
+@media screen and (max-width: 600px) {
+  body { font-size: 16px; }
+  .post-list > li { padding: 18px 20px; }
+  .page-heading, .post-title { font-size: 26px; }
+}
