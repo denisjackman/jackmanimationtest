@@ -12,7 +12,6 @@ header_pages:
   - games/index.md
 
 exclude:
-  - Jenkinsfile
   - Gemfile
   - Gemfile.lock
   - vendor

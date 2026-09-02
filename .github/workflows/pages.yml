@@ -36,7 +36,7 @@ jobs:
 
       - name: Build site
         # base_path resolves to /jackmanimationtest, matching _config.yml,
-        # so the same source also works for the Jenkins nginx deploy.
+        # which keeps asset URLs correct under the project-site subpath.
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
