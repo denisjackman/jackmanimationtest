@@ -22,6 +22,7 @@ I will try and find the details for those and publish as I find them.
 |2013|ZEE|28mm|Zombie|Particpation|NO|NO|
 |2017|Irish war of Independence|28mm|Skirmish|Particpation|NO|[YES](https://ttmadness.blogspot.com/2017/10/irish-war-of-independence-anglo-irish.html)|
 |2018|Abel Archer|20mm|Modern|Demonstration|[YES](https://pocketmags.com/miniature-wargames-magazine/january-2019-429) [^3]|[YES](https://ttmadness.blogspot.com/2018/03/aar-abel-archer-83-84-25-03-2018.html)|
+|2026|Battle for Hue|25mm|Vietnam War|Particpation|NO|[YES](https://ttmadness.blogspot.com/2025/09/building-hue-vietnam-war-participation.html)|
 
 ## Sites
 * [Tabletop Madness Blog](http://ttmadness.blogspot.com/)
